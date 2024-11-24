@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a88d8d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .contact-card {
+            background: #450909;
+            border: 1px solid #1d0c0c;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(12, 9, 9, 0.1);
+            text-align: center;
+        }
+        .contact-card img {
+            border-radius: 70%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .contact-card h2 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .contact-card p {
+            color: #555;
+            margin: 5px 0;
+        }
+        .contact-card .contact-info {
+            margin-top: 15px;
+        }
+        .contact-card a {
+            text-decoration: none;
+            color: #9f9696;
+        }
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-card">
+        <img src="https://st1.bollywoodlife.com/wp-content/uploads/2019/01/Iron-Man-1.jpg?impolicy=Medium_Resize&w=392&h=275" alt="Profile Picture"" alt="Profile Picture">
+        <h2>Iron Man</h2>
+        <p>Avenger</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:tony.stark@mcu.com">tony.stark@mcu.com</a></p>
+            <p>Phone: <a href="tel:+5554583000">555-458-3000</a></p>
+            <p>Website: <a href="https://www.iamironman.com" target="blank">www.iamironman.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
